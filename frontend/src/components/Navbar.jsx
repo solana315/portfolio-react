@@ -8,7 +8,7 @@ export const Navbar = () => {
   const navLinks = [
     { number: '01', label: 'Beginning', href: '/' },
     { number: '02', label: 'About Me', href: '/About' },
-    { number: '03', label: 'Websites', href: '/#websites' },
+    { number: '03', label: 'Websites', href: '/Websites' },
     { number: '04', label: 'Projects', href: '/#projetos' },
     { number: '05', label: 'Contact', href: '/#contacto' },
   ];
@@ -63,8 +63,8 @@ export const Navbar = () => {
           </div>
 
           <div className="d-none d-lg-flex flex-column align-items-end text-dark portfolio-meta">
-            <span className="fw-semibold text-uppercase">PORTFOLIO</span>
-            <span>2024—25 · PT</span>
+            <span className="fw-semibold text-uppercase">PORTFLIO</span>
+            <span>2023—26</span>
           </div>
         </nav>
       </div>

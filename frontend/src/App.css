@@ -488,6 +488,7 @@ img {
   background-color: dodgerblue;
   padding: 5px;
   gap: 10%;
+  align-items: center;
 }
 
 .container div {
@@ -496,8 +497,108 @@ img {
   padding: 10px;
   font-size: 30px;
   text-align: left;
+  
+}
+.item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+} 
+
+.item2 {
+  position: relative;
+  background-color: #ece6d9;
+  padding: 20px 20px 60px 20px; /* margem maior em baixo, típico da polaroid */
+  align-self: center;
+  box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 10px 20px rgba(0, 0, 0, 0.15);
+  transform: rotate(-2deg);
+  border-radius: 2px;
+  width: 70%;   
 }
 
-.item2 {align-self: between;}
+.item2 img {
+  
+  display: block;
+  width: 100%;              /* preenche a moldura */
+  aspect-ratio: 1 / 1;
+  height: auto;
+  filter: sepia(0.15) contrast(1.05) saturate(0.9);
+}
+
+/* textura de papel/grão no fundo */
+.item2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: 
+    url("https://www.transparenttextures.com/patterns/exclusive-paper.png");
+  opacity: 0.5;
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* leve sombra interna para dar profundidade ao papel*/
+.item2::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+.hero-title2 {
+  margin: 0;
+  max-width: 780px;
+  color: var(--ink);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(3.5rem, 5vw, 10rem);
+  letter-spacing: -0.08em;
+  line-height: 0.72;
+}
 
 
+/* COLAGEM DE PROJETO */
+.project-collage {
+  position: relative;
+  height: 280px;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 4px;
+}
+
+/* seletor scoped para vencer a especificidade de ".container div" */
+.project-collage .collage-strip {
+  flex: 1;
+  border-radius: 2px;
+  width: 90%;
+}
+
+.project-collage .strip-tan  { 
+  background-color: #c9bfa8;
+
+ }
+
+.collage-tag {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  padding: 4px 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  border-radius: 3px;
+  color: #fff;
+  z-index: 3;
+}
+
+.tag-pink {
+  background-color: var(--pink);
+}
