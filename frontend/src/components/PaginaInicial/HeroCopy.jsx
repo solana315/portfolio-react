@@ -1,18 +1,18 @@
 /* APRESENTAÇÃO*/
 const HeroCopy = () => (
   <section className="col-12 col-xl-6 hero-copy order-2 order-xl-1">
-    <p className="eyebrow text-uppercase mb-4">Designer multidisciplinar / Ana Oliveira</p>
+    <p className="eyebrow text-uppercase mb-4">Ana Carolina de Deus Oliveira</p>
 
     <h1 className="hero-title mb-4">
-      Ideias com
-      <span className="hero-accent">margem</span>
-      para
-      <span className="hero-line d-block">respirar.</span>
+      Get To
+      <span className="hero-accent">know Me</span>
+      <span className="hero-line d-block">Better.</span>
     </h1>
 
     <p className="hero-text mb-4">
-      Sou a Ana, designer entre o digital e o físico. Construo identidades,
-      interfaces e imagens para projetos com qualquer coisa para dizer.
+      Hi, I'm Ana! I'm a developer working with React, Flutter, Node.js, and Dart. I built full-stack apps 
+      from dental clinic platforms to study tools for students with dyslexia using LLM. I also work with databases
+      like PostgreSQL and MongoDB, and use Git, REST APIs, and Scrum.
     </p>
 
     <a href="#sobre" className="hero-cta text-decoration-none d-inline-flex align-items-center gap-2">
