@@ -8,7 +8,7 @@ const footerItems = [
 
 const FooterList = () => (
   <section className="portfolio-footer container-fluid px-4 px-xl-5 pb-4">
-    <div className="row align-items-end g-4">
+    <div className="row align-items-center g-4">
       <div className="col-12 col-xl-7">
         <p className="portfolio-footer__eyebrow text-uppercase mb-3">Explorar portfolio</p>
         <h2 className="portfolio-footer__title mb-0">
@@ -32,13 +32,6 @@ const FooterList = () => (
           ))}
         </div>
       </div>
-    </div>
-
-    <div className="portfolio-footer__badge-wrap d-flex justify-content-end mt-4">
-      <button type="button" className="portfolio-footer__badge btn d-flex align-items-center gap-2 text-white">
-        <span className="portfolio-footer__badge-icon" aria-hidden="true">✦</span>
-        <span>Made with Manus</span>
-      </button>
     </div>
   </section>
 );

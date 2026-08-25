@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 export const Navbar = () => {
@@ -12,6 +12,14 @@ export const Navbar = () => {
     { number: '04', label: 'Projects', href: '/#projetos' },
     { number: '05', label: 'Contact', href: '/#contacto' },
   ];
+
+  // Sincroniza o item ativo com a rota atual
+  useEffect(() => {
+    const link = navLinks.find(l => l.href === location.pathname);
+    if (link) {
+      setActiveItem(link.number);
+    }
+  }, [location.pathname]);
 
   return (
     <header className="topbar border-bottom border-dark-subtle">
@@ -46,7 +54,6 @@ export const Navbar = () => {
                   key={link.number}
                   to={link.href}
                   className={`nav-link nav-custom-link ${activeItem === link.number ? 'active' : ''}`}
-                  onClick={() => setActiveItem(link.number)}
                 >
                   <span className="small-number me-1">{link.number}</span>
                   <span className="nav-label">{link.label}</span>
