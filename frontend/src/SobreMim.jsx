@@ -20,7 +20,15 @@ function SobreMim() {
                 <div className="item2">
                     <img src={img} alt="Ana"></img>
                 </div>
-            
+   <a 
+     href="/Ana_Oliveira_CV.pdf" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     className="hero-cta text-decoration-none d-inline-flex align-items-center gap-2"
+   >
+     See My CV
+     <span className="hero-cta__arrow" aria-hidden="true">↗</span>
+   </a>
             </div>
           </div>
         </div>
