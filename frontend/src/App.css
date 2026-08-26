@@ -830,9 +830,9 @@ img {
     margin-bottom: 2rem;
   }
 }
-.pos-1 { top: 0;    left: 4%;  width: 22%; }
-.pos-2 { top: 6%;   left: 30%; width: 18%; }
-.pos-3 { top: 24%;  left: 52%; width: 30%; }
-.pos-4 { top: 42%;  left: 8%;  width: 40%; }
-.pos-5 { top: 58%;  left: 55%; width: 24%; }
-.pos-6 { top: 75%;  left: 10%; width: 20%; }
+.pos-1 { top: 0;    left: 4%;  width: 40%; } /*foto 1 topo ref1*/
+.pos-2 { top: 6%;   left: 30%; width: 18%; } /*texto 1*/
+.pos-3 { top: 0%;  left: 62%; width: 30%; } /*foto 2 topo ref2, postcard.jpg*/
+.pos-4 { top: 22%;  left: 30%;  width: 40%; } /*texto2 - a few mockups*/
+.pos-5 { top: 35%;  left: 55%; width: 24%; } /*ref3*/
+.pos-6 { top: 30%;  left: 10%; width: 30%; } /*ref4*/
