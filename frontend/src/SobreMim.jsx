@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import FooterList from './components/FooterList';
 import img from './assets/eu1.jpeg';
 
 function SobreMim() {
@@ -33,6 +34,7 @@ function SobreMim() {
           </div>
         </div>
       </section>
+      <FooterList />
     </div>
   );
 }

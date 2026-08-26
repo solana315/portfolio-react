@@ -486,9 +486,10 @@ img {
   height: 300px;
   grid-template-columns: auto auto ;
   background-color: dodgerblue;
-  padding: 5px;
+  padding: 20px;
   gap: 10%;
   align-items: center;
+  margin-bottom: 15%;
 }
 
 .container div {

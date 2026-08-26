@@ -10,7 +10,6 @@ const FooterList = () => (
   <section className="portfolio-footer container-fluid px-4 px-xl-5 pb-4">
     <div className="row align-items-center g-4">
       <div className="col-12 col-xl-7">
-        <p className="portfolio-footer__eyebrow text-uppercase mb-3">Explorar portfolio</p>
         <h2 className="portfolio-footer__title mb-0">
           Do primeiro rascunho
           <span className="d-block">
