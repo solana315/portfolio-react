@@ -12,7 +12,7 @@ function SobreMim() {
             <div className="containerAbout">
                 <div className="item1">
                 <h1 className="hero-title2 mb-4">About Me</h1>
-                <p className="hero-text mb-4">Hi, I'm Ana! I'm 22 years old and I'm a developer working with React, Flutter, Node.js, and Dart. I built full-stack apps 
+                <p className="hero-text mb-4">Hi, I'm Ana! I'm 21 years old and I'm a developer working with React, Flutter, Node.js, and Dart. I built full-stack apps 
                 from dental clinic platforms to study tools for students with dyslexia using LLM. I also work with databases
                 like PostgreSQL and MongoDB, and use Git, REST APIs, and Scrum.
                 </p>

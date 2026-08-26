@@ -1,10 +1,10 @@
 // components/Websites/ProjectList.jsx
 import React from 'react';
-import ProjectRow from './ProjectRow'; 
+import ProjectRow from './ProjectRow';
 
 function ProjectList({ projects }) {
   return (
-    <section className="container pb-5">
+    <section className="project-list">
       {projects.map((project) => (
         <ProjectRow key={project.id} project={project} />
       ))}

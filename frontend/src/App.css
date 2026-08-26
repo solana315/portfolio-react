@@ -345,7 +345,7 @@ img {
 }
 
 
-/*FOOTER*/
+/*FOOTER--------------------------------------------------------------------------------------------*/
 /* fhudh - footer final: lista de secções e chamada de portfolio */
 .portfolio-footer {
   margin-top: 2rem;
@@ -480,7 +480,7 @@ img {
 }
 
 
-/*ABOUT ME*/
+/*ABOUT ME-------------------------------------------------------------------------*/
 .containerAbout{
   display: grid;
   height: 300px;
@@ -561,35 +561,60 @@ img {
   line-height: 0.72;
 }
 
-
-/* COLAGEM DE PROJETO */
-.project-collage {
-  position: relative;
-  height: 280px;
-  border-radius: 4px;
-  overflow: hidden;
+/* LISTA DE PROJETOS —------------------------------------------------------- */
+.project-list {
+  width: 100%;
+  padding: 24px;
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  padding: 4px;
+  gap: 24px;
 }
 
-/* seletor scoped para vencer a especificidade de ".container div" */
-.project-collage .collage-strip {
-  flex: 1;
-  border-radius: 2px;
-  width: 90%;
+.project-row {
+  display: flex;
+  width: 100%;
+  min-height: 340px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background-color: #efeae0;
 }
 
-.project-collage .strip-tan  { 
+.project-row:nth-child(even) {
+  background-color: #e6ded0;
+}
+
+/* coluna do número */
+.project-number-col {
+  flex: 0 0 48px;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+.project-number {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.1rem;
+  color: var(--pink);
+  font-weight: 600;
+}
+
+/* coluna da colagem */
+.project-collage-col {
+  position: relative;
+  flex: 0 0 60%;
+}
+
+.project-collage-col .collage-strip {
+  position: absolute;
+  inset: 0;
+}
+
+.project-collage-col .strip-tan {
   background-color: #c9bfa8;
-
- }
+}
 
 .collage-tag {
   position: absolute;
-  top: 16px;
-  left: 16px;
+  top: 20px;
+  left: 20px;
   padding: 4px 10px;
   font-size: 0.7rem;
   font-weight: 700;
@@ -601,4 +626,66 @@ img {
 
 .tag-pink {
   background-color: var(--pink);
+}
+
+/* coluna de texto */
+.project-info-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 0 2.5rem;
+}
+
+.rule-top,
+.rule-bottom {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  margin: 0;
+}
+
+.info-body {
+  padding: 2rem 0;
+}
+
+.project-title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--ink);
+  margin-bottom: 0.75rem;
+}
+
+.project-description {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.info-footer {
+  padding-bottom: 1.5rem;
+}
+
+.project-meta {
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  color: #8a8a8a;
+  text-transform: uppercase;
+  padding-top: 0.75rem;
+}
+
+@media (max-width: 991px) {
+  .project-row {
+    flex-direction: column;
+    min-height: auto;
+  }
+  .project-collage-col {
+    flex: 0 0 260px;
+  }
+  .project-info-col {
+    border-left: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 1.5rem;
+  }
 }
