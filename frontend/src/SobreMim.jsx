@@ -22,7 +22,7 @@ function SobreMim() {
                     <img src={img} alt="Ana"></img>
                 </div>
    <a 
-     href="/Ana_Oliveira_CV.pdf" 
+     href="/anaoliveiracv.pdf" 
      target="_blank" 
      rel="noopener noreferrer"
      className="hero-cta text-decoration-none d-inline-flex align-items-center gap-2"
