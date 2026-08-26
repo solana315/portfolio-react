@@ -9,7 +9,7 @@ export const Navbar = () => {
     { number: '01', label: 'Beginning', href: '/' },
     { number: '02', label: 'About Me', href: '/About' },
     { number: '03', label: 'Websites', href: '/Websites' },
-    { number: '04', label: 'Projects', href: '/#projetos' },
+    { number: '04', label: 'Design', href: '/Design' },
     { number: '05', label: 'Contact', href: '/#contacto' },
   ];
 
