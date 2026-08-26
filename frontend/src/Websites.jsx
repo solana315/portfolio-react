@@ -15,6 +15,7 @@ const projects = [
     meta: 'WEBSITE · DIRECTION',
     year: '2026',
     category: 'Web',
+    url: null,
   },
   {
     id: '02',
@@ -25,6 +26,7 @@ const projects = [
     meta: 'MOBILE APP · UI/UX',
     year: '2026',
     category: 'Mobile',
+    url: null,
   },
 ];
 
