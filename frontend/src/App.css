@@ -353,6 +353,16 @@ img {
   background-color: #e4dece;
 }
 
+.project-row-link {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease;
+}
+
+.project-row-link:hover {
+  transform: translateY(-2px);
+}
+
 .portfolio-footer__eyebrow {
   font-size: 0.72rem;
   letter-spacing: 0.22rem;

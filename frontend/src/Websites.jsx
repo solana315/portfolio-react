@@ -4,6 +4,7 @@ import FooterList from './components/FooterList';
 import WebsitesHero from './components/Websites/WebsitesHero';
 import FilterTabs from './components/Websites/FilterTabs';
 import ProjectList from './components/Websites/ProjectList';
+import FlyingBurguer from './assets/FlyingBurguer.jpeg';
 
 const projects = [
   {
@@ -27,6 +28,18 @@ const projects = [
     year: '2026',
     category: 'Mobile',
     url: null,
+  },
+  {
+    id: '03',
+    tag: 'Web / 2026',
+    tagColor: 'pink',
+    image: FlyingBurguer, 
+    title: 'Web Flying Burguer',
+    description: 'Uma experiência móvel para uma comunidade de bem-estar urbano.',
+    meta: 'WEBSITE · DIRECTION',
+    year: '2026',
+    category: 'Web',
+    url: 'https://web-flying-burguer.vercel.app/',
   },
 ];
 
