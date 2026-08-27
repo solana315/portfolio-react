@@ -833,7 +833,10 @@ img {
 }
 .pos-1 { top: 0;    left: 4%;  width: 40%; } /*foto 1 topo ref1*/
 .pos-2 { top: 6%;   left: 30%; width: 18%; } /*texto 1*/
-.pos-3 { top: 0%;  left: 62%; width: 30%; } /*foto 2 topo ref2, postcard.jpg*/
+.pos-3 { top: 0%;  left: 72%; width: 30%; } /*foto 2 topo ref2, postcard.jpg*/
 .pos-4 { top: 22%;  left: 30%;  width: 40%; } /*texto2 - a few mockups*/
-.pos-5 { top: 35%;  left: 55%; width: 24%; } /*ref3*/
-.pos-6 { top: 30%;  left: 10%; width: 30%; } /*ref4*/
+.pos-5 { top: 17%;  left: 58%; width: 24%; } /*ref3 luminouscard*/
+.pos-6 { top: 33%;  left: 32%; width: 30%; } /*ref4 coffee*/
+.pos-7 { top: 46%;  left: 60%; width: 40%; } /*ref5 eyeswall*/
+.pos-8 { top: 31%;  left: 0%; width: 35%; } /*ref6 book*/
+.pos-9 { top: 52%;  left: 14%; width: 35%; } /*ref7 sweatshirt*/
