@@ -5,12 +5,14 @@ import WebsitesHero from './components/Websites/WebsitesHero';
 import FilterTabs from './components/Websites/FilterTabs';
 import ProjectList from './components/Websites/ProjectList';
 import FlyingBurguer from './assets/FlyingBurguer.jpeg';
+import donutclub from './assets/donutclub.jpeg';
 
 const projects = [
   {
     id: '01',
     tag: 'WEB / 2026',
     tagColor: 'pink',
+    image: donutclub, 
     title: 'DonutClub',
     description: 'Criação de uma marca e um site respetivo para maior alcance.',
     meta: 'WEBSITE · DIRECTION',
