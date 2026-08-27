@@ -11,7 +11,6 @@ const HeroSection = () => (
     </div>
 
     <HeroQuote />
-    <FooterList />
   </main>
 );
 
