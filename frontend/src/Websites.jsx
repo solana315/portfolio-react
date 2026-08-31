@@ -5,6 +5,7 @@ import WebsitesHero from './components/Websites/WebsitesHero';
 import FilterTabs from './components/Websites/FilterTabs';
 import ProjectList from './components/Websites/ProjectList';
 import FlyingBurguer from './assets/FlyingBurguer.jpeg';
+import Sara from './assets/Sara.jpg';
 import donutclub from './assets/donutclub.jpeg';
 
 const projects = [
@@ -22,14 +23,15 @@ const projects = [
   },
   {
     id: '02',
-    tag: 'MOBILE / 2026',
+    tag: 'WEB / 2026',
     tagColor: 'pink',
-    title: 'CliniMolelos Mobile',
-    description: 'Uma experiência móvel para uma comunidade de bem-estar urbano.',
-    meta: 'MOBILE APP · UI/UX',
+    image: Sara,
+    title: 'Sara´s Beauty',
+    description: 'Criação e desenvolvimento de um site para uma marca de maquiagem e skincare, em progresso.',
+    meta: 'WEBSITE · DIRECTION',
     year: '2026',
-    category: 'Mobile',
-    url: null,
+    category: 'Web',
+    url: 'https://saras-beauty-v2pz.vercel.app/',
   },
   {
     id: '03',
