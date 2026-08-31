@@ -5,7 +5,7 @@ import WebsitesHero from './components/Websites/WebsitesHero';
 import FilterTabs from './components/Websites/FilterTabs';
 import ProjectList from './components/Websites/ProjectList';
 import FlyingBurguer from './assets/FlyingBurguer.jpeg';
-import Sara from './assets/Sara.jpg';
+import Sara from './assets/Sara.jpeg';
 import donutclub from './assets/donutclub.jpeg';
 
 const projects = [
