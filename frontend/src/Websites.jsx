@@ -19,7 +19,7 @@ const projects = [
     meta: 'WEBSITE · DIRECTION',
     year: '2026',
     category: 'Web',
-    url: 'https://donutclub.vercel.app/',
+    url: 'https://donutclub2.vercel.app/',
   },
   {
     id: '02',
