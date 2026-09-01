@@ -47,7 +47,7 @@ const projects = [
   },
 ];
 
-const filters = ['Todos', 'Web', 'Mobile', 'UI/UX'];
+const filters = ['Todos', 'Web', /*'Mobile', 'UI/UX'*/];
 
 function Websites() {
   const [activeFilter, setActiveFilter] = useState('Todos');
