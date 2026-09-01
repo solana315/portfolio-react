@@ -14,7 +14,7 @@ const HeroCopy = () => (
       Take a look around to learn more about me.
     </p>
 
-    <a href="#sobre" className="hero-cta text-decoration-none d-inline-flex align-items-center gap-2">
+    <a href="/Websites" className="hero-cta text-decoration-none d-inline-flex align-items-center gap-2">
       See My Work
       <span className="hero-cta__arrow" aria-hidden="true">↗</span>
     </a>

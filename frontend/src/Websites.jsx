@@ -39,7 +39,7 @@ const projects = [
     tagColor: 'pink',
     image: FlyingBurguer, 
     title: 'Web Flying Burguer',
-    description: 'Uma experiência móvel para uma comunidade de bem-estar urbano.',
+    description: 'Uma experiência web para apresentação de um jogo criado.',
     meta: 'WEBSITE · DIRECTION',
     year: '2026',
     category: 'Web',
