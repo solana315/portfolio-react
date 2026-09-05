@@ -51,7 +51,7 @@ const projects = [
     tag: 'Web / 2026',
     tagColor: 'pink',
     image: SalSol, 
-    title: 'Tour so Sal ao Sol',
+    title: 'Tour do Sal ao Sol',
     description: 'Uma experiência web para uma viagem de 5 dias em espanha.',
     meta: 'WEBSITE · DIRECTION',
     year: '2026',
