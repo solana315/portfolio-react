@@ -6,10 +6,11 @@ import Websites from './Websites'
 import Design from './Design'
 import Contact from './Contact'
 
+const routerBase = import.meta.env.PROD ? '/portfolio-react' : '/'
 
 function App() {
   return (
-    <Router>
+    <Router basename={routerBase}>
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/About" element={<SobreMim />} />

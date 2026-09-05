@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 /* APRESENTAÇÃO*/
 const HeroCopy = () => (
   <section className="col-12 col-xl-6 hero-copy order-2 order-xl-1">
@@ -14,10 +16,10 @@ const HeroCopy = () => (
       Take a look around to learn more about me.
     </p>
 
-    <a href="/Websites" className="hero-cta text-decoration-none d-inline-flex align-items-center gap-2">
+    <Link to="/Websites" className="hero-cta text-decoration-none d-inline-flex align-items-center gap-2">
       See My Work
       <span className="hero-cta__arrow" aria-hidden="true">↗</span>
-    </a>
+    </Link>
   </section>
 );
 
