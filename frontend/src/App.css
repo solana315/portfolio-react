@@ -701,6 +701,64 @@ img {
   }
 }
 
+/* FILTROS DE WEBSITES ---------------------------------------------------- */
+.websites-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.9rem;
+  margin-top: 2.5rem;
+}
+
+.filter-btn {
+  appearance: none;
+  border: 1px solid rgba(25, 24, 21, 0.38);
+  background: transparent;
+  color: var(--ink);
+  padding: 0.8rem 1.4rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  border-color: rgba(25, 24, 21, 0.7);
+  transform: translateY(-1px);
+}
+
+.filter-btn.active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #f7f3ee;
+  box-shadow: 0 10px 20px rgba(25, 24, 21, 0.12);
+}
+
+.websites-divider {
+  border: none;
+  border-top: 1px solid rgba(25, 24, 21, 0.2);
+  margin: 1.25rem 0 0;
+}
+/* FILTROS DE WEBSITES ---------------------------------------------------- */
+
+@media (max-width: 991px) {
+  .project-row {
+    flex-direction: column;
+    min-height: auto;
+  }
+  .project-collage-col {
+    flex: 0 0 260px;
+  }
+  .project-info-col {
+    border-left: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 1.5rem;
+  }
+}
+
 /* REVEAL — animação base ao entrar em scroll */
 .reveal {
   opacity: 0;

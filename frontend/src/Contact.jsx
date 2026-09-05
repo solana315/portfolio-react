@@ -37,7 +37,7 @@ function Contact() {
             <div className="contact-row">
               <div className="contact-meta">
                 <span className="contact-label">Phone</span>
-                <span className="contact-value">939 449 845</span>
+                <span className="contact-value">+351 939 449 845</span>
               </div>
             </div>
 <div className="contact-location">
