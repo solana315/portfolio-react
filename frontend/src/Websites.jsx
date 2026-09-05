@@ -45,6 +45,18 @@ const projects = [
     category: 'Web',
     url: 'https://web-flying-burguer.vercel.app/',
   },
+  {
+    id: '04',
+    tag: 'Web / 2026',
+    tagColor: 'pink',
+    image: FlyingBurguer, 
+    title: 'Tour so Sal ao Sol',
+    description: 'Uma experiência web para uma viagem de 5 dias em espanha.',
+    meta: 'WEBSITE · DIRECTION',
+    year: '2026',
+    category: 'Web',
+    url: 'https://tour-nine-alpha.vercel.app/',
+  }
 ];
 
 const filters = ['Todos', 'Web', /*'Mobile', 'UI/UX'*/];
