@@ -7,6 +7,7 @@ import ProjectList from './components/Websites/ProjectList';
 import FlyingBurguer from './assets/FlyingBurguer.jpeg';
 import Sara from './assets/Sara.jpeg';
 import donutclub from './assets/donutclub.jpeg';
+import SalSol from './assets/SalSol.jpeg';
 
 const projects = [
   {
@@ -49,7 +50,7 @@ const projects = [
     id: '04',
     tag: 'Web / 2026',
     tagColor: 'pink',
-    image: FlyingBurguer, 
+    image: SalSol, 
     title: 'Tour so Sal ao Sol',
     description: 'Uma experiência web para uma viagem de 5 dias em espanha.',
     meta: 'WEBSITE · DIRECTION',
