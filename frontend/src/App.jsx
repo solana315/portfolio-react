@@ -4,6 +4,7 @@ import Hero from './Hero'
 import SobreMim from './SobreMim'
 import Websites from './Websites'
 import Design from './Design'
+import Contact from './Contact'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/About" element={<SobreMim />} />
         <Route path="/Websites" element={<Websites />} />
         <Route path="/Design" element={<Design />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </Router>
   )

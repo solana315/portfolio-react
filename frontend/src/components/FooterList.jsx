@@ -1,9 +1,8 @@
 const footerItems = [
-  { number: '02', label: 'Sobre mim', href: '#sobre' },
-  { number: '03', label: 'Websites', href: '#websites' },
-  { number: '04', label: 'Projetos criativos', href: '#projetos' },
-  { number: '05', label: 'Lab', href: '#lab' },
-  { number: '06', label: 'Contacto', href: '#contacto' },
+  { number: '01', label: 'Beginning', href: '/' },
+  { number: '02', label: 'Sobre mim', href: '/About' },
+  { number: '03', label: 'Websites', href: '/Websites' },
+  { number: '04', label: 'Contact', href: '/Contact' },
 ];
 
 const FooterList = () => (
