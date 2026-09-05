@@ -11,6 +11,7 @@ import FotoDez from '../../assets/FotoDez.jpeg';
 import FotoOnze from '../../assets/FotoOnze.jpeg';
 import FotoDoze from '../../assets/FotoDoze.jpeg';
 import FotoTreze from '../../assets/FotoTreze.jpeg';
+import FotoCatorze from '../../assets/FotoCatorze.jpeg';
 
 
 const galleryTiles = [
@@ -20,7 +21,7 @@ const galleryTiles = [
   { key: 'fotoDez', img: FotoDez, style: { gridColumn: '3 / span 2', gridRow: '2 / span 2' } },
   { key: 'fotoNove', img: FotoNove, style: { gridColumn: '1 / span 1', gridRow: '3 / span 1' } },
   { key: 'fotoOito', img: FotoOito, style: { gridColumn: '2 / span 1', gridRow: '3 / span 1' } },
-  { key: 'fotoSete', img: FotoSete, style: { gridColumn: '1 / span 2', gridRow: '4 / span 1' } },
+  { key: 'FotoCatorze', img: FotoCatorze, style: { gridColumn: '1 / span 2', gridRow: '4 / span 1' } },
   { key: 'fotoTreze', img: FotoTreze, style: { gridColumn: '3 / span 2', gridRow: '4 / span 1' } },
   { key: 'fotoQuatro', img: FotoQuatro, style: { gridColumn: '1 / span 1', gridRow: '5 / span 1' } },
   { key: 'foto', img: Foto, style: { gridColumn: '2 / span 1', gridRow: '5 / span 1' } },
