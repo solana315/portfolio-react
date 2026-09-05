@@ -6,7 +6,7 @@ import Websites from './Websites'
 import Design from './Design'
 import Contact from './Contact'
 
-const routerBase = import.meta.env.PROD ? '/portfolio-react' : '/'
+const routerBase = import.meta.env.BASE_URL || '/'
 
 function App() {
   return (
