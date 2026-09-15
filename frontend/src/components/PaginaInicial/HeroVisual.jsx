@@ -46,11 +46,6 @@ const HeroVisual = () => (
           />
         ))}
       </div>
-
-      <div className="floating-badge" aria-label="Portfolio indicator">
-        A
-        <span>02</span>
-      </div>
     </div>
 
     <div className="gallery-caption text-uppercase">Visual Archive</div>
