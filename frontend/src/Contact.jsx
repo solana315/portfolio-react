@@ -42,7 +42,7 @@ function Contact() {
             </div>
 <div className="contact-location">
   <div className="contact-location__text">
-    <span className="contact-location__city">LISBOA, PORTUGAL</span>
+    <span className="contact-location__city">LISBON, PORTUGAL</span>
   </div>
 </div>
           </div>
