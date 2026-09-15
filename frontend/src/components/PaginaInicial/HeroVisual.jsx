@@ -53,7 +53,7 @@ const HeroVisual = () => (
       </div>
     </div>
 
-    <div className="gallery-caption text-uppercase">Visual Archive / selection 01—05</div>
+    <div className="gallery-caption text-uppercase">Visual Archive</div>
   </section>
 );
 
