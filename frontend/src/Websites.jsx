@@ -11,24 +11,26 @@ import SalSol from './assets/SalSol.jpeg';
 
 const projects = [
   {
-    id: '01',
+    id: '02',
+    date: '2026-01-10', // formato YYYY-MM-DD facilita a comparação
     tag: 'WEB / 2026',
     tagColor: 'pink',
-    image: donutclub, 
+    image: donutclub,
     title: 'DonutClub',
-    description: 'Criação de uma marca e um site respetivo para maior alcance.',
+    description: 'Creation of a brand and a respective website for greater reach.',
     meta: 'WEBSITE · DIRECTION',
     year: '2026',
     category: 'Web',
     url: 'https://donutclub2.vercel.app/',
   },
   {
-    id: '02',
+    id: '01',
+    date: '2026-01-05',
     tag: 'WEB / 2026',
     tagColor: 'pink',
     image: Sara,
     title: 'Sara´s Beauty',
-    description: 'Criação e desenvolvimento de um site para uma marca de maquiagem e skincare, em progresso.',
+    description: 'A website development for a makeup site and skincare brand, in progress.',
     meta: 'WEBSITE · DIRECTION',
     year: '2026',
     category: 'Web',
@@ -36,11 +38,12 @@ const projects = [
   },
   {
     id: '03',
+    date: '2026-01-15',
     tag: 'Web / 2026',
     tagColor: 'pink',
-    image: FlyingBurguer, 
+    image: FlyingBurguer,
     title: 'Web Flying Burguer',
-    description: 'Uma experiência web para apresentação de um jogo criado.',
+    description: 'A web experience for presenting a created game.',
     meta: 'WEBSITE · DIRECTION',
     year: '2026',
     category: 'Web',
@@ -48,27 +51,34 @@ const projects = [
   },
   {
     id: '04',
+    date: '2026-01-20',
     tag: 'Web / 2026',
     tagColor: 'pink',
-    image: SalSol, 
+    image: SalSol,
     title: 'Tour do Sal ao Sol',
-    description: 'Uma experiência web para uma viagem de 5 dias em espanha.',
+    description: 'A web experience for a 5-day trip in Spain.',
     meta: 'WEBSITE · DIRECTION',
     year: '2026',
     category: 'Web',
     url: 'https://tour-nine-alpha.vercel.app/',
-  }
+  },
 ];
+
+// Ordena do mais recente para o mais antigo, independentemente
+// da ordem em que os projetos foram adicionados ao array acima.
+const sortedProjects = [...projects].sort(
+  (a, b) => new Date(b.date) - new Date(a.date)
+);
 
 const filters = [/*'Todos'*/, 'Web', /*'Mobile', 'UI/UX'*/];
 
 function Websites() {
-  const [activeFilter, setActiveFilter] = useState('Todos');
+  const [activeFilter, setActiveFilter] = useState('All');
 
   const filteredProjects =
-    activeFilter === 'Todos'
-      ? projects
-      : projects.filter((p) => p.category === activeFilter);
+    activeFilter === 'All'
+      ? sortedProjects
+      : sortedProjects.filter((p) => p.category === activeFilter);
 
   return (
     <div className="page-shell">

@@ -1,6 +1,6 @@
 const footerItems = [
   { number: '01', label: 'Beginning', href: '/' },
-  { number: '02', label: 'Sobre mim', href: '/About' },
+  { number: '02', label: 'About Me', href: '/About' },
   { number: '03', label: 'Websites', href: '/Websites' },
   { number: '04', label: 'Contact', href: '/Contact' },
 ];
@@ -10,9 +10,9 @@ const FooterList = () => (
     <div className="row align-items-center g-4">
       <div className="col-12 col-xl-7">
         <h2 className="portfolio-footer__title mb-0">
-          Do primeiro rascunho
+          From the first scatch
           <span className="d-block">
-            ao projeto <span className="portfolio-footer__accent">final.</span>
+            to the final <span className="portfolio-footer__accent">project.</span>
           </span>
         </h2>
       </div>
